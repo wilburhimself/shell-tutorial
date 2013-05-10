@@ -1,0 +1,14 @@
+#
+#
+# Script to test my knowledge about variables!
+#
+
+clear
+
+myname=Wilbur
+myos=TroubleOS
+myno=5
+
+echo "My name is $myname"
+echo "My OS is $myos"
+echo "My number is $myno, can you see this number"
