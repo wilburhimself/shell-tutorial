@@ -1,0 +1,18 @@
+
+function help () {
+    echo "Jazz - A Simple script that makes using Jasmine testing framework in
+    a standalone project a little simpler";
+    echo "";
+    echo "    jazz init                      - include jasmine in the project";
+    echo "    jazz create FunctionName       - creates ./src/FunctionName.js ./spec/FunctionNameSpec.js";
+    echo "    jazz run                       - runs tests in the browser";
+}
+
+if [ $1 ]; then
+    # do stuff
+    echo $1;
+else
+    # show help
+    help;
+fi
+
