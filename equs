@@ -1,0 +1,7 @@
+if [[ $1 ]]; then
+    if [[ $1 == "hola" ]]; then
+        echo "Saludos, como estas?"
+    elif [[ $1 == "adios" ]]; then
+        echo "Adios, nos vemos pronto!"
+    fi
+fi
